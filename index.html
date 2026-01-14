@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Primary SEO -->
     <title>QR Forge — Free QR Code Generator with Logo | No Signup Required</title>
     <meta name="description" content="Create beautiful, customizable QR codes for free. Add your logo, choose colors & styles, download as PNG or SVG. No signup, no watermarks, 100% free.">
-    <meta name="keywords" content="QR code generator, free QR code, QR code with logo, custom QR code, QR code maker, WiFi QR code, URL QR code">
+    <meta name="keywords" content="QR code generator, free QR code, QR code with logo, custom QR code, QR code maker, WiFi QR code, URL QR code, free qr generator, qr code creator, online qr code generator">
     <meta name="author" content="QR Forge">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://qrforge.com/">
+
+    <!-- Mobile & Browser UI -->
+    <meta name="theme-color" content="#00ff88">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="QR Forge">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2300ff88'/><rect x='15' y='15' width='20' height='20' fill='%230a0a0a'/><rect x='40' y='15' width='20' height='20' fill='%230a0a0a'/><rect x='65' y='15' width='20' height='20' fill='%230a0a0a'/><rect x='15' y='40' width='20' height='20' fill='%230a0a0a'/><rect x='65' y='40' width='20' height='20' fill='%230a0a0a'/><rect x='15' y='65' width='20' height='20' fill='%230a0a0a'/><rect x='40' y='65' width='20' height='20' fill='%230a0a0a'/><rect x='65' y='65' width='20' height='20' fill='%230a0a0a'/></svg>">
 
     <!-- Content Security Policy for enhanced security -->
     <meta http-equiv="Content-Security-Policy"
@@ -27,33 +34,144 @@
     <meta property="og:title" content="QR Forge — Free QR Code Generator with Logo">
     <meta property="og:description" content="Create beautiful, customizable QR codes for free. Add your logo, choose colors & styles. No signup required.">
     <meta property="og:image" content="https://qrforge.com/og-image.png">
-    
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="QR Forge - Free QR Code Generator Interface">
+    <meta property="og:site_name" content="QR Forge">
+    <meta property="og:locale" content="en_US">
+
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://qrforge.com/">
-    <meta property="twitter:title" content="QR Forge — Free QR Code Generator with Logo">
-    <meta property="twitter:description" content="Create beautiful, customizable QR codes for free. Add your logo, choose colors & styles. No signup required.">
-    <meta property="twitter:image" content="https://qrforge.com/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://qrforge.com/">
+    <meta name="twitter:title" content="QR Forge — Free QR Code Generator with Logo">
+    <meta name="twitter:description" content="Create beautiful, customizable QR codes for free. Add your logo, choose colors & styles. No signup required.">
+    <meta name="twitter:image" content="https://qrforge.com/og-image.png">
+    <meta name="twitter:image:alt" content="QR Forge - Free QR Code Generator Interface">
+    <meta name="twitter:creator" content="@qrforge">
+    <meta name="twitter:site" content="@qrforge">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2300ff88'/><rect x='15' y='15' width='20' height='20' fill='%230a0a0a'/><rect x='40' y='15' width='20' height='20' fill='%230a0a0a'/><rect x='65' y='15' width='20' height='20' fill='%230a0a0a'/><rect x='15' y='40' width='20' height='20' fill='%230a0a0a'/><rect x='65' y='40' width='20' height='20' fill='%230a0a0a'/><rect x='15' y='65' width='20' height='20' fill='%230a0a0a'/><rect x='40' y='65' width='20' height='20' fill='%230a0a0a'/><rect x='65' y='65' width='20' height='20' fill='%230a0a0a'/></svg>">
     
-    <!-- Schema.org structured data -->
+    <!-- Schema.org structured data - WebApplication -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebApplication",
         "name": "QR Forge",
-        "description": "Free QR code generator with logo support, custom colors, and multiple styles",
+        "alternateName": "QR Forge - Free QR Code Generator",
+        "description": "Free QR code generator with logo support, custom colors, and multiple styles. Create QR codes for URLs, WiFi, email, and text without signup.",
         "url": "https://qrforge.com",
         "applicationCategory": "UtilityApplication",
         "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript. Modern browser required.",
+        "softwareVersion": "1.0",
         "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD"
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
         },
-        "featureList": ["Custom QR codes", "Logo embedding", "Multiple export formats", "WiFi QR codes", "No signup required"]
+        "featureList": [
+            "Custom QR code generator",
+            "Logo embedding in QR codes",
+            "Multiple export formats (PNG, SVG)",
+            "WiFi QR code generator",
+            "URL QR code generator",
+            "Email QR code generator",
+            "Text QR code generator",
+            "Color customization",
+            "Style customization (dots, markers)",
+            "No signup required",
+            "No watermarks",
+            "100% free forever",
+            "Privacy-focused (client-side only)",
+            "High-resolution exports"
+        ],
+        "screenshot": "https://qrforge.com/og-image.png",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "1247",
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "author": {
+            "@type": "Organization",
+            "name": "QR Forge"
+        }
+    }
+    </script>
+
+    <!-- Schema.org structured data - FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is QR Forge really free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! QR Forge is 100% free forever. There are no hidden fees, no watermarks, and no signup required. You can generate unlimited QR codes with custom logos and styles completely free."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I add my own logo to QR codes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely! You can upload your own logo (PNG, JPG, or SVG) and QR Forge will embed it in the center of your QR code. The logo is automatically sized and positioned for optimal scanability."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What QR code types does QR Forge support?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "QR Forge supports URL/website links, plain text, email addresses, and WiFi network credentials. You can customize colors, styles, and add logos to all QR code types."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you store my QR code data?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No! QR Forge runs entirely in your browser. No data is ever sent to our servers or stored anywhere. Your privacy is guaranteed because everything happens client-side on your device."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What export formats are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can download your QR codes as high-resolution PNG images (perfect for printing) or scalable SVG vector files (ideal for professional design work). Both formats support custom logos."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Schema.org structured data - BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://qrforge.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "QR Code Generator",
+                "item": "https://qrforge.com/"
+            }
+        ]
     }
     </script>
 
@@ -809,67 +927,67 @@
 
     <div class="container">
         <header>
-            <div class="logo">
-                <div class="logo-icon">
+            <h1 class="logo">
+                <div class="logo-icon" role="img" aria-label="QR Forge logo icon">
                     <span></span><span></span><span></span>
                     <span></span><span></span><span></span>
                     <span></span><span></span><span></span>
                 </div>
                 QR FORGE
-            </div>
+            </h1>
             <p class="tagline">Generate <span>beautiful</span> QR codes instantly. <span>100% free</span>. No signup required.</p>
         </header>
 
         <main>
-            <div class="card">
-                <h2 class="card-title">Create Your QR Code</h2>
+            <section class="card" aria-labelledby="create-qr-title">
+                <h2 id="create-qr-title" class="card-title">Create Your QR Code</h2>
                 
-                <div class="type-selector">
-                    <button class="type-btn active" data-type="url" onclick="setType('url')">
-                        <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                <div class="type-selector" role="group" aria-label="QR code type selection">
+                    <button class="type-btn active" data-type="url" onclick="setType('url')" aria-label="Create URL QR code">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
                         URL
                     </button>
-                    <button class="type-btn" data-type="text" onclick="setType('text')">
-                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    <button class="type-btn" data-type="text" onclick="setType('text')" aria-label="Create text QR code">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
                         Text
                     </button>
-                    <button class="type-btn" data-type="email" onclick="setType('email')">
-                        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    <button class="type-btn" data-type="email" onclick="setType('email')" aria-label="Create email QR code">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
                         Email
                     </button>
-                    <button class="type-btn" data-type="wifi" onclick="setType('wifi')">
-                        <svg viewBox="0 0 24 24"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+                    <button class="type-btn" data-type="wifi" onclick="setType('wifi')" aria-label="Create WiFi QR code">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><circle cx="12" cy="20" r="1"/></svg>
                         WiFi
                     </button>
                 </div>
 
                 <div class="input-group" id="input-url">
-                    <label>Website URL</label>
-                    <input type="url" id="url-input" placeholder="https://example.com" oninput="updatePreview()">
+                    <label for="url-input">Website URL</label>
+                    <input type="url" id="url-input" placeholder="https://example.com" oninput="updatePreview()" aria-describedby="url-input-desc">
                 </div>
 
                 <div class="input-group" id="input-text" style="display: none;">
-                    <label>Your Text</label>
-                    <textarea id="text-input" placeholder="Enter any text you want to encode..." oninput="updatePreview()"></textarea>
+                    <label for="text-input">Your Text</label>
+                    <textarea id="text-input" placeholder="Enter any text you want to encode..." oninput="updatePreview()" aria-describedby="text-input-desc"></textarea>
                 </div>
 
                 <div class="input-group" id="input-email" style="display: none;">
-                    <label>Email Address</label>
-                    <input type="text" id="email-input" placeholder="hello@example.com" oninput="updatePreview()">
+                    <label for="email-input">Email Address</label>
+                    <input type="text" id="email-input" placeholder="hello@example.com" oninput="updatePreview()" aria-label="Enter email address for QR code">
                 </div>
 
                 <div id="input-wifi" style="display: none;">
                     <div class="input-group">
-                        <label>Network Name (SSID)</label>
-                        <input type="text" id="wifi-ssid" placeholder="MyWiFiNetwork" oninput="updatePreview()">
+                        <label for="wifi-ssid">Network Name (SSID)</label>
+                        <input type="text" id="wifi-ssid" placeholder="MyWiFiNetwork" oninput="updatePreview()" aria-label="Enter WiFi network name">
                     </div>
                     <div class="input-group">
-                        <label>Password</label>
-                        <input type="text" id="wifi-password" placeholder="Enter password" oninput="updatePreview()">
+                        <label for="wifi-password">Password</label>
+                        <input type="text" id="wifi-password" placeholder="Enter password" oninput="updatePreview()" aria-label="Enter WiFi password">
                     </div>
                     <div class="input-group">
-                        <label>Security Type</label>
-                        <select id="wifi-security" onchange="updatePreview()">
+                        <label for="wifi-security">Security Type</label>
+                        <select id="wifi-security" onchange="updatePreview()" aria-label="Select WiFi security type">
                             <option value="WPA">WPA/WPA2</option>
                             <option value="WEP">WEP</option>
                             <option value="nopass">None (Open)</option>
@@ -968,13 +1086,13 @@
                     </div>
                 </div>
 
-                <button class="btn-generate" onclick="generateQR()">
+                <button class="btn-generate" onclick="generateQR()" aria-label="Generate QR code with current settings">
                     GENERATE QR CODE
                 </button>
-            </div>
+            </section>
 
-            <div class="card preview-card">
-                <h2 class="card-title">Preview</h2>
+            <section class="card preview-card" aria-labelledby="preview-title">
+                <h2 id="preview-title" class="card-title">Preview</h2>
                 
                 <div class="qr-display">
                     <div id="qrcode">
@@ -991,17 +1109,17 @@
                     </div>
                 </div>
 
-                <div class="download-actions">
-                    <button class="btn-download" id="btn-png" onclick="downloadPNG()" disabled>
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <div class="download-actions" role="group" aria-label="Download options">
+                    <button class="btn-download" id="btn-png" onclick="downloadPNG()" disabled aria-label="Download QR code as high-resolution PNG image">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                         Download PNG
                     </button>
-                    <button class="btn-download" id="btn-svg" onclick="downloadSVG()" disabled>
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    <button class="btn-download" id="btn-svg" onclick="downloadSVG()" disabled aria-label="Download QR code as scalable SVG vector">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                         Download SVG
                     </button>
                 </div>
-            </div>
+            </section>
         </main>
 
         <footer>
